@@ -126,7 +126,10 @@ function estilizar(){
 
         let p = document.getElementsByClassName("resultado")[0];
 
-        if(viewport_width<=768 && viewport_width >375){
+        if(viewport_width > 768){
+            frame5.style.top = "32px";
+            frame5.style.height = "1100px"
+        }else if(viewport_width<=768 && viewport_width >375){
             rec1.style.height = "311px";
             document.body.style.height = "1348";
             frame5.style.height = "215px";
@@ -141,9 +144,6 @@ function estilizar(){
             copyP.style.width = "231px"
             copyP.style.top = "160px"
             copyP.style.justifyContent = "center";
-        }else{
-            frame5.style.top = "32px";
-            frame5.style.height = "1100px"
         }
     }
 
