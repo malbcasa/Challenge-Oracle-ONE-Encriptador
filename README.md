@@ -11,9 +11,15 @@ El challenge consistía en hacer un sitio responsive que permitiera al usuario i
 
 Se siguió el modelo visual propuesto por los tutores.
 Lógica de encriptación:
+
 •	a = ai
+
 •	e = enter
+
 •	i = imes
+
 •	o = ober
+
 •	u = ufat
+
 Además se agrego el botón copiar que permita copiar el resultado de la encriptación ( o desencriptación) al portapapeles
