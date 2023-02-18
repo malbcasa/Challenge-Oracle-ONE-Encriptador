@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html lang="es">
+
+        <head>
+            <meta charset="UTF-8" viewport>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Encriptador</title>
+            <link href="reset.css" rel="stylesheet" >
+            <link  href="style.css" rel="stylesheet">
+
+        </head>
+        
+        <body onload="estilizar()">
+            
+            <div class="logo">
+               <img id="logo" src="img/Vector.svg"> 
+            </div>
+
+            <div class="ingresetexto">
+                <input id="textinput" type="text" value="Ingrese el texto aqui">
+            </div>
+            
+            <div class="rectangle1" id="resultado_div">
+               <img class="muneco" src="img/Muñeco.png" id="muneco_id">
+                <div class="frame5">
+                    
+                    <p class="frame5__texto1" id="frame5__texto1_id">Ningún mensaje fue encontrado</p>
+                    <p class="frame5__texto2" id="frame5__texto2_id">Ingrese el texto que desees encriptar o desencriptar</p>
+                    <button onclick="copiar()" class="copy">
+                        <p class="copy_p">Copiar</p>
+                    </button>
+                </div> 
+                
+            </div>
+            
+
+            <div class="frame1">
+                <img class="frame1__exclamation" src="img/bi_exclamation-circle-fill.png">
+                <p class="frame1__text"> Solo letras minúsculas y sin acentos </p>
+            </div>
+
+            <div class="frame3"> 
+                	<button  onclick="encriptar()" class="frame3__button frame3__button-encriptar"  >
+                        <p class="frame3__encriptar">Encriptar</p>
+                    </button>
+                    
+                    <button class="frame3__button frame3__button-desencriptar" onclick="desencriptar()">
+                        <p class="frame3__desencriptar">Desencriptar</p>
+                    </button>
+            </div>
+
+           <script src="script_funciones.js">
+            </script>
+
+        </body>
+
+    </html> 

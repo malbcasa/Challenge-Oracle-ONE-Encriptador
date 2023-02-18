@@ -1,0 +1,757 @@
+
+body{
+    /* Encriptador - 1 Desktop */
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    /* Light blue/light-blue-100 */
+
+    background: #F3F5FC;
+}
+
+#logo{
+   /* Logo */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px; 
+}
+
+
+
+.ingresetexto textarea, input{
+    /* Ingrese el texto aqui */
+
+    position: absolute;
+    background-color: #F3F5FC;;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    border: #F3F5FC;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+    
+}
+
+
+
+.rectangle1{
+    /* Rectangle 1 */
+
+
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+.resultado{
+    display: block;
+    position: relative;
+    width: 336px;
+    height: 781px;
+    
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+    overflow-wrap:break-word;
+    overflow: scroll;
+    
+}
+
+.muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+
+}
+
+.frame5{
+    /* Frame 5 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 138px;
+    left: 32px;
+    top: 547px;
+}
+
+.frame5__texto1{
+    /* Ningún mensaje fue encontrado */
+
+
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame5__texto2{
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+
+
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.copy{
+    /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    top: 814px;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.copy:hover{
+    cursor: pointer;
+}
+
+.copy p{
+    /* Button */
+
+
+    width: 288px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.frame1{
+    /* Frame 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+
+}
+
+.frame1__exclamation{
+    /* bi:exclamation-circle-fill */
+
+
+    width: 16px;
+    height: 16px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame1__text{
+    /* Solo letras minúsculas y sin acentos */
+
+
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame3{
+    /* Frame 3 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+}
+
+.frame3__button{
+    /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame3__button:hover{
+    cursor: pointer;
+}
+
+.frame3__button-encriptar{
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+}
+
+.frame3__button-desencriptar{
+    /* Light gray */
+
+    background: #D8DFE8;
+
+}
+
+.frame3__button p{
+    /* Button */
+
+
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.frame3__button:first-child p{
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.frame3__button:last-child p{
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+
+
+@media screen and (max-width: 768px) and (min-width:376px){
+
+    body{
+        /* Encriptador - 1 Tablet */
+
+
+        position: relative;
+        width: 768px;
+        height: 1275px;
+    }
+
+    #logo{
+        /* Rectangle 5 */
+
+
+        position: absolute;
+        width: 31px;
+        height: 48px;
+        left: 40px;
+        top: 76px;
+
+        background: #E9ECF8;
+    }
+
+    .muneco{
+        display: none;
+    }
+
+
+    .rectangle1{
+        /* Rectangle 1 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+
+        position: absolute;
+        width: 688px;
+        height: 133px;
+        left: 40px;
+        top: 950px;
+
+        /* White */
+
+        background: #FFFFFF;
+        /* shadow */
+
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    
+
+    .frame5 {
+        /* Frame 5 */
+
+
+        /* Auto layout */
+
+        padding: 0px;
+        
+
+        width: 624px;
+        height: 133px;
+
+        position: absolute;
+        left: 0px;
+        top: 16px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame5__texto1{
+        /* Ningún mensaje fue encontrado */
+        
+        width: 624px;
+        height: 29px;
+
+    }
+
+    .frame5__texto2{
+        /* Ningún mensaje fue encontrado */
+        
+        width: 624px;
+        height: 24px;
+
+    }
+
+    .resultado{
+        width: 624px;
+        height: 180px;
+        position: absolute;
+        left: 32px;
+        top: 32px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        /* or 36px */
+
+
+        /* Gray/gray-400 */
+
+        color: #495057;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .copy {
+        /* Button */
+
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: none;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        position: absolute;
+        width: 624px;
+        height: 67px;
+        bottom: -72px;
+        top:auto;
+        left: 32px;
+
+        /* Dark blue/dark-blue-300 */
+
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .ingresetexto textarea, input{
+        /* Ingrese el texto aqui */
+
+
+        position: absolute;
+        width: 688px;
+        height: 48px;
+        left: 40px;
+        top: 240px;
+        padding: 0px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 48px */
+
+
+        /* Dark blue/dark-blue-300 */
+
+        color: #0A3871;
+
+    }
+
+    .frame1{
+        /* Frame 1 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 40px;
+        top: 836px;
+    }
+
+
+    .frame3{
+        /* Frame 3 */
+
+
+        /* Auto layout */
+
+        
+        width: 688px;
+        left: 40px;
+        top: 870px;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width: 376px){
+    body{
+        position: relative;
+        width: 375px;
+        height: 933px;
+    }
+
+    #logo{
+        position: absolute;
+        left: 1.6%;
+        right: 87.2%;
+        top: 2.5%;
+        bottom: 92.5%;
+    }
+
+    .ingresetexto{
+        width: 343px;
+        height: 48px;
+        position: absolute;
+        left: 16px;
+        line-height: 150%;
+        top: 152px;
+    }
+
+    .ingresetexto textarea,input{
+        width: 343px;
+        height: 48px;
+        position: unset;
+        left: 16px;
+        font-size: 32px;
+        line-height: 150%;
+        top: 152px;
+    }
+
+    .frame1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 16px;
+        top: 451px;
+    }
+
+    .frame3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+        
+        width: 343px;
+        height: 158px;
+        left: 16px;
+        top: 485px;
+    }
+
+    .frame5{
+        top: 32px;
+        width: 263px;
+    }
+    .frame5__texto1, .frame5__texto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+        
+        width: 263px;
+        height: 58px;
+        position:unset;
+    }
+
+
+    .rectangle1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+
+        position: absolute;
+        width: 327px;
+        height: 186px;
+        left: 24px;
+        top: 707px;
+    }
+
+    .muneco{
+        display: none;
+    }
+
+    .resultado{
+        width: 279px;
+        height: 180px;
+        top: -24px;
+        overflow-wrap:break-word;
+        overflow: scroll;
+    }
+
+    .copy{
+        display: none;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        top: 160px;
+
+        width: 263px;
+        height: 67px;
+
+        /* Dark blue/dark-blue-300 */
+
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
+        
+
+        background: #FFFFFF;
+
+    }
+}
